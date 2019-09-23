@@ -1,0 +1,139 @@
+#development_Page {
+  background-color: rgba(242, 242, 242);
+  background-size: 2em;
+  width: 100vw;
+  padding: 4em;
+  padding-left: 0;
+  padding-right: 0;
+  flex-direction: column;
+}
+
+#development_selector {
+  height: 10em;
+  width: 60em;
+}
+
+.development_selectorBox {
+  height: 100%;
+  width: 33.33%;
+  transition: all 0.5s;
+}
+
+.development_selectorBox i {
+  font-size: 5em;
+  opacity: 0.6;
+}
+
+.development_selectorBox.one {
+  color: #FF7A76;
+}
+
+.development_selectorBox.two {
+  color: #A29491;
+}
+
+.development_selectorBox.three {
+  color: #2DB4B4;
+}
+
+.development_selectorBox.one:hover {
+  background-color: rgba(255, 122, 118, 0.1);
+  cursor: pointer;
+}
+
+.development_selectorBox.two:hover {
+  background-color: rgba(162, 148, 145, 0.1);
+  cursor: pointer;
+}
+
+.development_selectorBox.three:hover {
+  background-color: rgba(45, 180, 180, 0.1);
+  cursor: pointer;
+}
+
+#development_description {
+  height: 20em;
+  width: 60em;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-top: 0.22em solid transparent;
+  border-radius: 0.1em;
+  position: relative;
+  -webkit-box-shadow: 0px 12px 24px -4px rgba(187,187,187,1);
+  -moz-box-shadow: 0px 12px 24px -4px rgba(187,187,187,1);
+  box-shadow: 0px 12px 24px -4px rgba(187,187,187,1);
+}
+
+#development_selector_tracker {
+  position: absolute;
+  top: -0.22em;
+  width: 33.33%;
+  height: 0.22em;
+  transition: all 0.5s;
+}
+
+.development_descriptionImage {
+  height: 100%;
+  width: 33.33%;
+  font-size: 10em;
+  position: relative;
+}
+
+.development_descriptionImage i {
+  z-index: 1;
+}
+
+.checkmark {
+  position: absolute;
+  z-index: 0;
+  opacity: 0.4;
+  top: 0.4em;
+  left: 0.4em;
+  font-size: 0.4em;
+}
+
+.development_descriptionBody {
+  flex-direction: column;
+  height: 100%;
+  width: 66.66%;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#description_componentContainer {
+  transition: all 1s;
+  position: relative;
+}
+
+.development_descriptionTitle {
+  padding: 4em;
+  padding-top: 2em;
+  padding-bottom: 0;
+}
+
+.development_descriptionTitle p {
+  font-size: 3em;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #444;
+  width: 8em;
+}
+
+.development_descriptionText {
+  padding-left: 4em;
+}
+
+.development_descriptionText p {
+  font-size: 1.6em;
+  font-weight: 100;
+  color: #444;
+  width: 14em;
+}
+
+.shiftRight {
+  left: 4em;
+}
+
+.shiftLeft {
+  left: -4em;
+}

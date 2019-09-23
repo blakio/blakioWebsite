@@ -1,0 +1,66 @@
+
+.fadeInFromRight {
+  position: relative;
+  animation: fadeInFromRight 0.5s;
+}
+
+.loadingBar::before {
+  content: "";
+  animation: loadBar 1.4s;
+}
+
+@keyframes fadeInFromRight {
+  0% {
+    right: -10em;
+    opacity: 0;
+  }
+  100% {
+    right: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes loadBar {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOutAt70 {
+  0% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+
+@keyframes fadeUp {
+  0% {
+    position: relative;
+    opacity: 1;
+    top: 0;
+  }
+  100% {
+    position: relative;
+    opacity: 0;
+    top: -20vh;
+  }
+}

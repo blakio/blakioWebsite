@@ -1,0 +1,258 @@
+/* homepage */
+#home_Page {
+  background-color: #202020;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+#home_menu {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  font-size: 1.4em;
+}
+
+#home_menu:hover {
+  cursor: pointer;
+}
+
+#home_menu_list {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 4em;
+  padding-top: 6em;
+  padding-left: 6em;
+  z-index: 2;
+  border-radius: 50%;
+  height: 14em;
+  width: 14em;
+  flex-direction: column;
+  transition: all 0.3s;
+}
+
+#home_menu_list p {
+  letter-spacing: 3px;
+  transition: all 0.3s;
+  text-align: center;
+  user-select: none;
+}
+
+#home_menu_list i {
+  font-size: 2em;
+  position: relative;
+  top: 0.5em;
+}
+
+#home_menu_list i:hover {
+  cursor: pointer;
+  color: red;
+}
+
+#home_menu_list p:hover {
+  color: #FF7A76;
+  cursor: pointer;
+}
+
+#home_PageLeftPanel,
+#home_PageRightPanel {
+  height: 100vh;
+}
+
+#home_PageLeftPanel {
+  width: 70vw;
+  background-color: rgba(242, 242, 242);
+  background-image: url(../images/dots.png);
+  background-size: 2em;
+}
+
+#home_PageRightPanel {
+  font-weight: 900;
+  width: 30vw;
+  animation: changeBKColorAndFadeInFromLeft 2s;
+  position: relative;
+  background-color: #202020;
+}
+
+/* @keyframes changeBKColorAndFadeInFromLeft {
+  0% {
+    left: 10em;
+  }
+  100% {
+    left: 0;
+  }
+} */
+
+#home_PageRightPanel > div {
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 80%;
+}
+
+#home_PageLeftPanel {
+  position: relative;
+  animation: fadeInFromTop 2s;
+}
+
+@keyframes fadeInFromTop {
+  0% {
+    top: -2em;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.home_largePanelText {
+  font-size: 16vw;
+  margin: 0;
+  padding: 0;
+  line-height: 1em;
+  word-break: break-all;
+  text-align: center;
+  color: #444;
+}
+
+#home_sideBar {
+  position: absolute;
+  transform-origin: left;
+  transform: rotateZ(-90deg);
+  top: 94vh;
+  left: 1.5em;
+  height: 3em;
+  width: 98vh;
+  justify-content: space-around;
+  padding-right: 1em;
+  pointer-events: none;
+}
+
+#home_sideBar p {
+  font-weight: 100;
+  font-size: 1.4em;
+}
+
+#home_TopBar {
+  height: 5em;
+  width: 100%;
+  justify-content: flex-start;
+  padding-left: 2em;
+  z-index: -1;
+}
+
+#home_TopBar #i {
+  color: #ca6868;
+}
+
+#home_TopBar p {
+  font-size: 30em;
+  font-weight: 600;
+  opacity: 0.08;
+  position: relative;
+  top: 1em;
+}
+
+#home_Title {
+  padding-left: 5em;
+}
+
+#home_Title p {
+  font-size: 4em;
+  margin: 0;
+  font-weight: 900;
+  color: #444;
+  width: 8em;
+}
+
+#home_Body .i {
+  color: #ca6868;
+  font-weight: 300;
+}
+
+#home_Body {
+  padding-left: 5em;
+}
+
+#home_Body p {
+  font-size: 2em;
+  font-weight: 100;
+  color: #444;
+  width: 14em;
+}
+
+#home_AnimationBoxes {
+  position: absolute;
+  bottom: 12em;
+  left: 6em;
+  perspective: 1000px;
+}
+
+#home_AnimationBoxes .components {
+  height: 14em;
+  width: 14em;
+  background-color: #222;
+  border-radius: 0.2em;
+  position: absolute;
+}
+
+#home_AnimationBoxes .components.one {
+  background-color: #FF7A76;
+  transform: rotateX(73deg) rotateY(2deg) rotateZ(50deg) translateZ(0);
+}
+
+#home_AnimationBoxes .components.two {
+  background-color: #A29491;
+  transform: rotateX(73deg) rotateY(2deg) rotateZ(50deg) translateZ(2em);
+  animation: secondBox 2s;
+}
+
+@keyframes secondBox {
+  69% {
+    opacity: 0;
+  }
+  70% {
+    transform: rotateX(73deg) rotateY(2deg) rotateZ(50deg) translateZ(0);
+  }
+  100% {
+    opacity: 1;
+    transform: rotateX(73deg) rotateY(2deg) rotateZ(50deg) translateZ(2em);
+  }
+}
+
+#home_AnimationBoxes .components.three {
+  background-color: #2DB4B4;
+  transform: rotateX(73deg) rotateY(2deg) rotateZ(50deg) translateZ(4em);
+  animation: thirdBox 2s;
+}
+
+#home_AnimationBoxes .components.three p {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.4em;
+}
+
+@keyframes thirdBox {
+  69% {
+    opacity: 0;
+  }
+  70% {
+    transform: rotateX(73deg) rotateY(2deg) rotateZ(50deg) translateZ(0);
+  }
+  100% {
+    opacity: 1;
+    transform: rotateX(73deg) rotateY(2deg) rotateZ(50deg) translateZ(4em);
+  }
+}
+
+#arrow {
+  background-image: url(../images/arrow.png);
+  height: 20vh;
+  background-size: 100% auto;
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+  z-index: 2;
+  width: 6em;
+  background-repeat: no-repeat;
+  background-position: center;
+}

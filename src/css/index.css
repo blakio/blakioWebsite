@@ -1,0 +1,35 @@
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* splash screen */
+#splash {
+  background-color: #202020;
+  height: 100vh;
+  width: 100vw;
+}
+
+#logoHolder {
+  height: 100vh;
+  width: 50vw;
+  font-family: 'Righteous', cursive;
+  animation: fadeUp 1s;
+  animation-delay: 2s;
+}
+
+.i {
+  color: #ca6868;
+}
+
+#logoHolder p {
+  font-size: 30em;
+}
