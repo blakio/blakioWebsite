@@ -256,3 +256,26 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+/* about page */
+
+#about {
+  height: 100vh;
+  width: 100vw;
+}
+
+#about_leftPanel {
+  height: 100%;
+  width: 50%;
+  background-color: rgba(242, 242, 242);
+  background-image: url(../images/dots.png);
+  background-size: 2em;
+}
+
+#about_rightPanel {
+  height: 100%;
+  width: 50%;
+  background-image: url(../images/colorlogo.png);
+  background-size: auto 100%;
+  background-position: center;
+}

@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 
 import Description from "./DescriptionComponent";
+import About from "./About";
 import { descriptionText } from "./description";
 
 function Homepage() {
@@ -102,6 +103,8 @@ function Homepage() {
         />
       </div>
     </div>
+
+    <About />
   </div>);
 }
 

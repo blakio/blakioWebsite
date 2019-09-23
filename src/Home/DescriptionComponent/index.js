@@ -14,14 +14,6 @@ function Description(props) {
     direction
   } = props;
 
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     setLeft("0em");
-  //   }, 1000);
-  // }, [imageColor]);
-  //
-  // const initialPosition = (direction === "forward") ? "-4em" : "4em";
-
   return (<div id="description_componentContainer" style={{height: "100%", width: "100%"}} className="flex">
     <div className="development_descriptionImage flex" style={{color: imageColor}}>
       <i className={imageClass}></i>
