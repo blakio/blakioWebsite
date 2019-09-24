@@ -1,0 +1,11 @@
+#home_PageRightPanel {
+  display: none !important;
+}
+
+#home_PageLeftPanel {
+  width: 100vw !important;
+}
+
+#home_AnimationBoxes {
+  display: none !important;
+}

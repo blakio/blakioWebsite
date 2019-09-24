@@ -1,0 +1,33 @@
+#development_description {
+  width: 100vw !important;
+}
+
+#development_selector {
+  width: 100% !important;
+}
+
+.development_selectorBox {
+  width: 33vw !important;
+}
+
+#about_rightPanel {
+  display: none !important;
+}
+
+#about_leftPanel {
+  width: 100% !important;
+}
+
+#home_Body {
+  padding-left: 0 !important;
+}
+
+#home_Body {
+  display: flex !important;
+  justify-content: center !important;
+  flex-wrap: wrap;
+}
+
+#home_Body p {
+  width: 80% !important;
+}

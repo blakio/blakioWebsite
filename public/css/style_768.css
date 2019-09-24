@@ -1,0 +1,29 @@
+#home_Body p {
+  font-size: 1.8em !important;
+}
+
+#home_TopBar p {
+  font-size: 26em !important;
+}
+
+.development_descriptionImage {
+  display: none !important;
+}
+
+.development_descriptionText,
+.development_descriptionTitle {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+#arrow {
+  display: none !important;
+}
+
+#development_Page {
+  padding: 0 !important;
+}
+
+#logoHolder p {
+  font-size: 20em !important;
+}
