@@ -1,5 +1,6 @@
 #home_Body p {
   font-size: 1.8em !important;
+  text-align: center !important;
 }
 
 #home_TopBar p {
@@ -26,4 +27,39 @@
 
 #logoHolder p {
   font-size: 20em !important;
+}
+
+#home_sideBar {
+  display: none !important;
+}
+
+#home_Title {
+  padding: 0 !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+#home_Title p {
+  font-size: 3em !important;
+  text-align: center !important;
+}
+
+.development_selectorBox i {
+  font-size: 4em !important;
+}
+
+#development_description {
+  height: 26em !important;
+}
+
+.development_descriptionText p {
+  width: 100% !important;
+}
+
+#about {
+  height: 120vh !important;
+}
+
+.development_descriptionTitle p {
+  width: auto !important;
 }

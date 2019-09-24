@@ -61,7 +61,7 @@ function Homepage() {
           <p id="o">o</p>
         </div>
         <div id="home_Title">
-          <p>We belives in good ideas, flexibility and precision.</p>
+          <p>We belive in good ideas, flexibility and precision.</p>
         </div>
         <div id="home_Body">
           <p>At blak<span className="i">i</span>o we take your repetitive tasks, examine the processes that make them whole, and develop a seamless solution you will love.</p>
