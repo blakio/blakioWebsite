@@ -45,7 +45,7 @@ function Homepage() {
     <div id="home_Page" className="flex">
       <div id="home_PageLeftPanel">
         {/*<i id="home_menu" className="fas fa-bars" onClick={() => setOpenMenu(true)}></i>*/}
-        <div id="arrow"></div>
+        <div id="arrow" className="flex">scroll</div>
         <div id="home_menu_list" className="flex" style={menuStyle}>
           <p>home</p>
           <p>development</p>
@@ -76,7 +76,7 @@ function Homepage() {
       </div>
       <div id="home_PageRightPanel" className="flex remove">
         <div className="flex">
-          <span className="home_largePanelText">software</span>
+          <span className="home_largePanelText">we build software.</span>
         </div>
       </div>
     </div>

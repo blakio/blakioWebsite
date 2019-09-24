@@ -106,7 +106,7 @@
 }
 
 .home_largePanelText {
-  font-size: 16vw;
+  font-size: 5.5vw;
   margin: 0;
   padding: 0;
   line-height: 1em;
@@ -255,6 +255,9 @@
   width: 6em;
   background-repeat: no-repeat;
   background-position: center;
+  color: #FF7A76;
+  align-items: flex-start;
+  padding-top: 3em;
 }
 
 /* about page */
