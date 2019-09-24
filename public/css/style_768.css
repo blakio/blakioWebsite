@@ -1,6 +1,7 @@
 #home_Body p {
   font-size: 1.8em !important;
   text-align: center !important;
+  font-weight: 300;
 }
 
 #home_TopBar p {
