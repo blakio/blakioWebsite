@@ -1,13 +1,13 @@
 export const descriptionText = {
   plan: {
     title: "Plan",
-    text: "Will will meet to develop tasks to meet your objectives, create a timeline, determine the tracking method, and finalize the plan.",
+    text: "We will meet to develop tasks to meet your objectives, create a timeline, determine the tracking method, and finalize the plan.",
     imageClass: "fas fa-user-tie",
     imageColor: "#FF7A76"
   },
   build: {
     title: "build",
-    text: "We will start building the software your company needs! If your company has an already existing system we will build the app to integrate into it.",
+    text: "We will start building the software your company needs! If your company has an already existing system we will integrate our software.",
     imageClass: "fas fa-hard-hat",
     imageColor: "#A29491"
   },
