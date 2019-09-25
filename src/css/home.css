@@ -176,9 +176,10 @@
 
 #home_Body p {
   font-size: 2em;
-  font-weight: 100;
+  font-weight: 300;
   color: #444;
   width: 14em;
+  font-family: 'Lato', sans-serif;
 }
 
 #home_AnimationBoxes {
