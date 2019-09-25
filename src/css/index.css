@@ -22,7 +22,7 @@ body {
   height: 100vh;
   width: 50vw;
   font-family: 'Righteous', cursive;
-  animation: fadeUp 1s;
+  animation: fadeUp 1s forwards;
   animation-delay: 2s;
 }
 
