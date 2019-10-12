@@ -264,7 +264,7 @@
 /* about page */
 
 #about {
-  height: 100vh;
+  height: 140vh;
   width: 100vw;
 }
 
@@ -276,10 +276,27 @@
   background-size: 2em;
 }
 
+#about_leftPanel.about {
+  background-image: url();
+  background-color: #727171;
+  background-color: #fff;
+}
+
+#home_Body.about p {
+  color: #444;
+  font-weight: 400;
+  font-size: 1.4em;
+}
+
 #about_rightPanel {
   height: 100%;
   width: 50%;
   background-image: url(../images/colorlogo.png);
   background-size: auto 100%;
   background-position: center;
+}
+
+.icolor {
+  color: #ca6868;
+  font-weight: 900;
 }
