@@ -46,6 +46,10 @@ const Contact = () => {
   }
 
   return (<div id="contactForm" className="flex">
+    {/*<div class="contactio flex">
+      <p class="i">i</p>
+      <p class="o">o</p>
+    </div>*/}
     <p className="smallText contactHeading">Contact Us</p>
     <div className="form-style-2">
       <form action="" method="post">
