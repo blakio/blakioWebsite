@@ -64,3 +64,8 @@
 .development_descriptionTitle p {
   width: auto !important;
 }
+
+#pricingSection .pricingDescription {
+  width: 80% !important;
+  margin: 0;
+}

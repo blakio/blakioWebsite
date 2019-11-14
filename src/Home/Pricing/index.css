@@ -1,0 +1,55 @@
+#pricingSection {
+  width: 100vw;
+  min-height: 20em;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 4em 0 0 0;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  flex-direction: column;
+  position: relative;
+}
+
+#pricingSection .title {
+  font-size: 4em;
+  margin: 0;
+  font-weight: 900;
+  color: #444;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#pricingSection .pricingDescription {
+  font-size: 1.6em;
+  font-weight: 300;
+  color: #444;
+  width: 24em;
+  text-align: center;
+}
+
+.pricingDescription {
+  margin: 0;
+}
+
+.pricingDescription.heading {
+  margin: 2rem;
+}
+
+.featureExampleSection {
+  background-color: #2DB4B4;
+  padding: 2em 0;
+  margin-top: 4rem;
+  width: 100vw;
+  flex-direction: column;
+}
+
+.featureExampleSection li {
+  font-size: 2em;
+  margin: 0;
+  font-weight: 900;
+  color: #d7d7d7;
+  letter-spacing: 3px;
+}
