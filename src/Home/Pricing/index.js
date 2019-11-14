@@ -12,8 +12,9 @@ const Pricing = () => {
 
     <p className="title">HOW IT WORKS</p>
     <p className="pricingDescription">The only thing you pay is the $4000/yr subscription.</p>
-    <p className="pricingDescription">The first app is free with limitations (Let's talk)</p>
-    <p className="pricingDescription">Additional features will be a one time charge. Prices may vary.</p>
+    <p className="pricingDescription">The first dashboard feature is free with limitations (Let's talk)</p>
+    <p className="pricingDescription">Additional features will be a one time charge.</p>
+    <p className="pricingDescription">Prices may vary per feature but your subscription charge remains the same.</p>
 
     <div className="featureExampleSection flex">
       <p className="title">Example Features</p>

@@ -19,14 +19,16 @@
   font-weight: 900;
   color: #444;
   text-align: center;
-  margin-bottom: 2rem;
+  margin: 2rem;
 }
 
 #pricingSection .pricingDescription {
   font-size: 1.6em;
-  font-weight: 300;
   color: #444;
-  width: 24em;
+  font-size: 1.4em;
+  margin: 0.4em;
+  font-weight: 400;
+  letter-spacing: 3px;
   text-align: center;
 }
 
