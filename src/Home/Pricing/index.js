@@ -27,6 +27,7 @@ const Pricing = () => {
         <li>Integration of data</li>
         <li>Pre built reports</li>
       </ul>
+      <p className="pricingDescription">Don't see your desired feature here? No problem. We will build it for you.</p>
     </div>
 
   </div>)
