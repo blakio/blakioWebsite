@@ -26,7 +26,7 @@ const Pricing = () => {
         <li>Goal tracking</li>
         <li>Alerts</li>
         <li>Integration of data</li>
-        <li>Pre built reports</li>
+        <li>Prebuilt reports</li>
       </ul>
       <p className="pricingDescription">Don't see your desired feature here? No problem. We will build it for you.</p>
     </div>
