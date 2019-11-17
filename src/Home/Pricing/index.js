@@ -20,6 +20,7 @@ const Pricing = () => {
       <p className="title">Example Features</p>
       <ul>
         <li>Timesheets</li>
+        <li>Automated tasks</li>
         <li>Analytics</li>
         <li>KPI reporting</li>
         <li>Goal tracking</li>
