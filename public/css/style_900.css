@@ -7,5 +7,6 @@
 }
 
 #home_AnimationBoxes {
-  display: none !important;
+  /* display: none !important; */
+  zoom: 0.6;
 }
