@@ -6,7 +6,6 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding: 4em 0 0 0;
   margin: 0 auto;
   background-color: #f2f2f2;
   flex-direction: column;
@@ -19,16 +18,14 @@
   font-weight: 900;
   color: #444;
   text-align: center;
-  margin: 2rem;
-  margin-top: 0;
+  margin: 4rem;
 }
 
 #pricingSection .pricingDescription {
-  font-size: 1.6em;
   color: #444;
   font-size: 1.4em;
   margin: 0.4em;
-  font-weight: 400;
+  font-weight: 800;
   letter-spacing: 3px;
   text-align: center;
 }
@@ -43,8 +40,8 @@
 
 .featureExampleSection {
   background-color: #2DB4B4;
-  padding: 4em 0;
-  margin-top: 6rem;
+  padding-bottom: 4rem;
+  margin-top: 4rem;
   width: 100vw;
   flex-direction: column;
 }
@@ -55,4 +52,9 @@
   font-weight: 900;
   color: #d7d7d7;
   letter-spacing: 3px;
+}
+
+.big {
+  font-size: 1.1em;
+  font-weight: 800;
 }

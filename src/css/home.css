@@ -167,7 +167,6 @@
 
 #home_Body .i {
   color: #ca6868;
-  font-weight: 300;
 }
 
 #home_Body {
@@ -176,8 +175,9 @@
 
 #home_Body p {
   font-size: 2em;
-  font-weight: 300;
+  font-weight: 800;
   color: #444;
+  opacity: 0.9;
   width: 14em;
   font-family: 'Lato', sans-serif;
 }
@@ -284,7 +284,6 @@
 
 #home_Body.about p {
   color: #444;
-  font-weight: 400;
   font-size: 1.4em;
 }
 

@@ -1,8 +1,6 @@
+import React, { useState } from 'react';
 
-
-import React, { useState, useEffect } from 'react';
-
-import Description from "./DescriptionComponent";
+import Description from "./Description/index.js";
 import About from "./About";
 import Contact from "./Contact";
 import Pricing from "./Pricing";
@@ -62,10 +60,12 @@ function Homepage() {
           <p id="o">o</p>
         </div>
         <div id="home_Title">
-          <p>We believe in good ideas, flexibility and precision.</p>
+          {/* <p>We believe in good ideas, flexibility and precision.</p> */}
+          <p>Building you an all in one solution to manage your business.</p>
+          {/* <p><span className="i">DASHBOARD</span>.</p> */}
         </div>
         <div id="home_Body">
-          <p>At blak<span className="i">i</span>o we take your repetitive tasks, examine the processes that make them whole, and develop a seamless solution you will love.</p>
+          <p>We build <span className="i">DASHBOARDS</span> to help manage your business. Let's talk about what you need and we'll construct a software solution that works.</p>
         </div>
         <div id="home_AnimationBoxes">
           <div className="components one"></div>

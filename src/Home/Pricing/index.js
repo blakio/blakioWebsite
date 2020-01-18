@@ -8,13 +8,14 @@ const Pricing = () => {
   return (<div id="pricingSection" className="flex">
     <p className="title" >PRICING</p>
 
-    <p className="pricingDescription heading">A CUSTOMIZABLE DASHBOARD for $4000/yr</p>
+    <p className="pricingDescription">Dashboard Subscription <span className="big">$4000</span> / yr</p>
 
     <p className="title">HOW IT WORKS</p>
-    <p className="pricingDescription">The only thing you pay is the $4000/yr subscription.</p>
-    <p className="pricingDescription">The first dashboard feature is free with limitations (Let's talk)</p>
-    <p className="pricingDescription">Additional features will be a one time charge.</p>
-    <p className="pricingDescription">Prices may vary per feature but your subscription charge remains the same.</p>
+    <p className="pricingDescription">Add your first dashboard feature for a one time charge from <span className="big">$0</span></p>
+    <br />
+    <br />
+    <p className="pricingDescription">Need more features in the future? No problem.</p>
+    <p className="pricingDescription">We will build it with another one time charge.</p>
 
     <div className="featureExampleSection flex">
       <p className="title">Example Features</p>
