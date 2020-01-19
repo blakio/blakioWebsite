@@ -8,7 +8,7 @@ const Pricing = () => {
   return (<div id="pricingSection" className="flex">
     <p className="title" >PRICING</p>
 
-    <p className="pricingDescription">Dashboard Subscription <span className="big">$4000</span> / yr</p>
+    <p className="pricingDescription">Dashboard Subscription <span className="big">$334</span> / month</p>
 
     <p className="title">HOW IT WORKS</p>
     <p className="pricingDescription">Add your first dashboard feature for a one time charge from <span className="big">$0</span></p>
