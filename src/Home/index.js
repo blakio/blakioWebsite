@@ -61,7 +61,7 @@ function Homepage() {
         </div>
         <div id="home_Title">
           {/* <p>We believe in good ideas, flexibility and precision.</p> */}
-          <p>We build Dashboards to manage your business.</p>
+          <p>We build Dashboards to manage your business<span className="i">.</span></p>
           {/* <p><span className="i">DASHBOARD</span>.</p> */}
         </div>
         <div id="home_Body">
@@ -77,7 +77,7 @@ function Homepage() {
       </div>
       <div id="home_PageRightPanel" className="flex remove">
         <div className="flex">
-          <span className="home_largePanelText">we build software.</span>
+          <span className="home_largePanelText">we build software<span className="i">.</span></span>
         </div>
       </div>
     </div>
