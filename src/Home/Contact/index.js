@@ -50,7 +50,7 @@ const Contact = () => {
       <p class="i">i</p>
       <p class="o">o</p>
     </div>*/}
-    <p className="smallText contactHeading">Contact Us</p>
+    <p className="smallText contactHeading">Contact Us<span className="icolor">.</span></p>
     <div className="form-style-2">
       <form action="" method="post">
         <label for="field1">
