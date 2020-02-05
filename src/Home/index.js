@@ -61,11 +61,11 @@ function Homepage() {
         </div>
         <div id="home_Title">
           {/* <p>We believe in good ideas, flexibility and precision.</p> */}
-          <p>Building you an all in one solution to manage your business.</p>
+          <p>We build Dashboards to manage your business.</p>
           {/* <p><span className="i">DASHBOARD</span>.</p> */}
         </div>
         <div id="home_Body">
-          <p>We build <span className="i">DASHBOARDS</span> to help manage your business. Let's talk about what you need and we'll construct a software solution that works.</p>
+          {/* <p><span className="i">An All One Solution</span>.</p> */}
         </div>
         <div id="home_AnimationBoxes">
           <div className="components one"></div>
