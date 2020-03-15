@@ -34,7 +34,7 @@ const Contact = () => {
 
     const host = "blakio";
 
-    axios.post("https://blakioserver.herokuapp.com/mail", {
+    axios.post("https://blakiodashserver.herokuapp.com/email", {
       params,
       host
     }).then(data => {
