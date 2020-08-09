@@ -52,7 +52,7 @@ const Contact = () => {
     </div>*/}
     <p className="smallText contactHeading">Contact Us<span className="icolor">.</span></p>
     <div className="form-style-2">
-      <form action="" method="post">
+      {/* <form action="" method="post"> */}
         <label for="field1">
           <span>Call or text: 814 753 0157</span>
           <span>Email: ijh5005@outlook.com</span>
@@ -67,7 +67,7 @@ const Contact = () => {
           <textarea name="field5" className="textarea-field" value={message} onChange={messageChange.bind(this)}></textarea></label>
         <label>
         <span> </span><input type="submit" value="Submit" onClick={submitEmail.bind(this)} /></label>*/}
-      </form>
+      {/* </form> */}
     </div>
   </div>)
 }
